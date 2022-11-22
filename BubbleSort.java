@@ -1,8 +1,7 @@
 public class BubbleSort {
     public static void main(String[] args) {
         int[] arr = {12,3,5,6,8,2,1};
-        // this is code for bubble sort
-        //hellow world
+
         for(int i=0; i<arr.length-1; i++){
             for(int j=0; j<arr.length - i - 1; j++){
                 if(arr[j] > arr[j+1]){
